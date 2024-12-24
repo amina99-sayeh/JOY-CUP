@@ -1,0 +1,96 @@
+/* product section start*/
+#product{
+    width: 100%;
+}
+.heading4{
+    text-align: center;
+    color: lightcoral;
+    font-size: 30px;
+    padding-top: 25px ;
+    border-bottom: 2px solid lightcoral;
+
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    text-align: center;
+    color: grey;
+    font-size: 23px;
+}
+#product p{
+    color: rgb(241, 94, 119);
+    padding-top: 10px;
+}
+#product p i{
+    float: right;
+    cursor: pointer;
+    color: yellow;
+}
+
+/* product section end*/
+
+
+
+/* pagination start*/
+.wrapper{
+    position: relative;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 2px 20px 0 whitesmoke;
+    margin-top:20px ;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50px;
+    height: max-content;
+    width: fit-content;
+
+}
+.wrapper li{
+    display: inline-block;
+    list-style: none;
+}
+.wrapper li a{
+    background-color: rgb(241, 94, 119);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    margin: 8px;
+    box-shadow: inset 0 5px 10px rgb(0, 0, 0,0.2) ,0 3px 6px rgb(0, 0, 0,0.5) ;
+    transition: 0.5s;
+    display: block;
+    width: 40px;
+    height:40px;
+    line-height:40px ;
+}
+.wrapper li a:hover,
+.wrapper li a.active{
+    color:rgb(241, 94, 119) ;
+    background-color: white;
+}
+.wrapper li:first-child a{
+    border-radius: 50% 0 0 50%;
+}
+.wrapper li:last-child a{
+    border-radius: 0 50% 50% 0;
+}
+a.btn{
+    border: none;
+    color: #333;
+    background-color: pink ;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+a.btn:hover{
+    color: pink;
+    background-color: #333;
+
+}
+
+
+
+
+
+/* pagination end*/
